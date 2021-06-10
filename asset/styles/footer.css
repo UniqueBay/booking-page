@@ -5,3 +5,10 @@ footer {
   display: flex;
   justify-content: space-between;
 }
+
+@media (max-width: 425px) {
+  footer {
+    display: block;
+    font-size: small;
+  }
+}
