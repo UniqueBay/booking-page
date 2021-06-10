@@ -15,10 +15,9 @@ body {
 }
 
 .img {
-  background-image: url("../image/main.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../image/main.jpg") center/cover no-repeat;
+  color: #fff;
   width: 100%;
   padding: 60px;
   display: grid;
@@ -63,6 +62,7 @@ button {
   padding: 5px;
   color: #fff;
   transition: background 1s ease;
+  cursor: pointer;
 }
 
 .about {
@@ -88,6 +88,10 @@ button {
 
 .testimony div {
   margin: 10px;
+}
+
+.testimony div:first-child {
+  margin-right: 30px;
 }
 
 .testimony div h2 {

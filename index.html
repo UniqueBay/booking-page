@@ -5,34 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booking Form</title>
+
     <!-- Styles -->
     <link rel="stylesheet" href="./asset/styles/nav.css">
     <link rel="stylesheet" href="./asset/styles/main.css">
     <link rel="stylesheet" href="./asset/styles/footer.css">
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@300;400;500;700;900&display=swap" rel="stylesheet"/>
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+    
 </head>
 <body>
     <Header>
         <nav>
             <h2>Pro Cleaners </h2>
-            <h2>Phone : +234 (0) 905 554 4512</h2>
+            <h2>Phone : 1-800-222-3030</h2>
         </nav>
     </Header>
     <main>
         <div class="img">
             <div class="welcome">
-                <h1>Lagos's Best <br> Home Cleaners</h1>
+                <h1>Vancouver's Best <br> Home Cleaners</h1>
                 <p>Pro cleaning is Lagos's best cleaning service. For the quality maid service 
                     Lagos relies on, book one of our experience, background-checked professionals 
                     to have your home clean in no time.
                 </p>
             </div>
-            <form action="submit">
+            <form name="fill">
                 <h2>Request Info & Booking</h2>
                 <p>Fill this form and we'll contact you as soon as we can.</p>
-                <input type="text" name="Name" id="Name" placeholder="Your Full Name">
-                <input type="email" name="mail" id="mail" placeholder="Your Email">
-                <input type="number" name="phone" id="phn" placeholder="Your Phone Number">
-                <button class="submit">Request Info & Booking</button>
+                <input type="text" id="fun" name="name" id="Name" placeholder="Your Full Name">
+                <input type="email" id="mail" name="mail" id="mail" placeholder="Your Email">
+                <input type="number" id="phn" name="phone" id="phn" placeholder="Your Phone Number">
+                <button id="sub-btn" class="submit" onclick="fillForm()">Request Info & Booking</button>
             </form>
         </div>
         <section class="about">
@@ -59,14 +67,14 @@
             <div class="tes-content">
                 <div>
                 <img src="./asset/image/avatar1.jpg" alt="avatar">
-                <p><strong><em>Samueal Ayodeji</em></strong></p>
+                <p><strong><em> Ana Carolina</em></strong></p>
                 <hr>
                 <p>The team was fast and friendly- honestly my house hasn't been this clean in years!</p>
                 <i class = "fas fa-envelope"></i>
             </div>
             <div>
                 <img src="./asset/image/avatar2.jpg" alt="avatar" class="small">
-                <p><strong><em> Abayomi Alabi</em></strong></p>
+                <p><strong><em> Paulo Parra</em></strong></p>
                 <hr>
                 <p>It feels so great walking in to a fresh, clean apartment every day. These guys make my place spotless!</p>
                 <i class = "fas fa-envelope"></i>
@@ -77,5 +85,8 @@
     <footer>
         <strong>Copyright. All Rights Reserved.</strong>
     </footer>
+
+    <!-- Javascript -->
+    <script src="./asset/js/main.js"></script>
 </body>
 </html>
