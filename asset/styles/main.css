@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --heading: "Montserrat", sans-serif;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background: #fff;
+  max-height: 100vh;
+}
+
+.img {
+  background-image: url("../image/main.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.welcome {
+  font-size: larger;
+  align-items: center;
+  margin: 40px;
+  margin-right: 50px;
+}
+
+form {
+  display: block;
+  color: #fff;
+  font-size: 20px;
+  padding: 30px;
+  padding-bottom: 50px;
+  margin-right: 20px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+}
+
+input {
+  display: block;
+  font-size: 14px;
+  padding: 5px;
+  margin: 10px 0;
+  width: 80%;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+}
+
+button {
+  background-color: lime;
+  width: 80%;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  font-size: 25px;
+  padding: 5px;
+  color: #fff;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+  align-items: center;
+  padding: 30px;
+  margin: 20px;
+}
+
+.about div {
+  margin: 10px;
+  text-align: center;
+}
+
+.testimony {
+  background-color: whitesmoke;
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+}
+
+.testimony div {
+  margin: 10px;
+}
+
+.testimony div h2 {
+  text-align: center;
+}
+
+.testimony .tes-content {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 10px 70px;
+}
+
+.tes-content {
+  align-items: center;
+}
+
+hr {
+  width: 60%;
+  margin-left: 20%;
+}
+
+img {
+  width: 30%;
+  border-radius: 100%;
+  border: 1px solid #fff;
+  margin-bottom: 1rem;
+}
+
+.small {
+  width: 22%;
+}
